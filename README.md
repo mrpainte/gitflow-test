@@ -16,3 +16,7 @@ we will see these in the initalization of the gitflow. it is important to know t
 git flow feature start first_feature
 git flow feature finish first_feature #will merge
 ```
+```
+`git flow hotfix start hotfix1`
+this is from a hotfix branch
+```
