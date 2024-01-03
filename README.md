@@ -16,3 +16,21 @@ we will see these in the initalization of the gitflow. it is important to know t
 git flow feature start first_feature
 git flow feature finish first_feature #will merge
 ```
+# Release canidates
+```
+ git flow release start relase-1.0.0
+Branches 'develop' and 'origin/develop' have diverged.
+And local branch 'develop' is ahead of 'origin/develop'.
+Switched to a new branch 'release/relase-1.0.0'
+
+Summary of actions:
+- A new branch 'release/relase-1.0.0' was created, based on 'develop'
+- You are now on branch 'release/relase-1.0.0'
+
+Follow-up actions:
+- Bump the version number now!
+- Start committing last-minute fixes in preparing your release
+- When done, run:
+
+     git flow release finish 'relase-1.0.0'
+```
