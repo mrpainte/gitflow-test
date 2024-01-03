@@ -10,3 +10,9 @@ Git flow is for easier management of branch control. instead of the standard
 1. support branch [support/]
 
 we will see these in the initalization of the gitflow. it is important to know that these once pushed should be replicated across all developers stations upon pulling the new project under the ```.git/hooks```
+
+
+```
+git flow feature start first_feature
+git flow feature finish first_feature #will merge
+```
